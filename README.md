@@ -1,21 +1,7 @@
 ﻿Graber i3 3D Printer
 =================
 
-This is the home of the Graber i3 3D printer: http://www.flickr.com/photos/sbgraber/8536293604/in/photostream/lightbox/
-
-This printer design takes a lot of inspiration from Josef Prusa's awesome 
-Prusa i3 printer:
-
-http://reprap.org/wiki/Prusa_i3_Build_Manual#Single_Sheet_Frame_Style
-
-I have decided to give it a name as the design is enough of a departure from its predecessor
-that it needs differentiating. I am calling it the "Graber i3" 3D printer. Note on
-pronunciation: the 'a' in 'Graber' is long.
-
-What I have done is completely redesign the entire i3 concept to make it laser 
-cuttable.  Some designs have taken this idea part-way, making the frame laser
-cuttable along with certain motor mounts. With my design, there are no printed
-parts, although one could print certain parts if need-be. 
+This is a clone of the Graber i3 3D printer - fully laser cuttable redesign of Josef Prusa's Prusa i3.
 
 The overall build envelope dimensions remain the same as the Prusa i3, which is
 200mm x 200mm x 200mm.
@@ -51,28 +37,3 @@ to each part to make assembly easier and here is the part rundown:
 * X-Motor Back (Y) - 1
 * X-Motor Top / Bottom (Z) - 2
 * X-Motor Cap (AA) - 1
-
-NOTE: The long term goal is to make this 3D printer completely laser cuttable, minus the extruder.
-Right now the x-motor and x-idler parts remain the only parts untested.  I have just 
-committed an x-idler and x-motor that may work. If you choose to build this printer
-before these parts are tested, you can use the standard Prusa i3 x-motor and x-idler
-parts (even the x-carriage too if you want) and the printer will work fine. 
-Expect regular changes to this repository
-in the coming weeks, so don't get too comfortable if you download this to cut just
-yet.  :)
-
-If you find a bug, I welcome notifications, fixes, and even new contributions.
-
-License
-=======
-
-This printer is released under the GNU GENERAL PUBLIC LICENSE v.3, same as its
-predecessor.  See LICENSE.md for further details.
-
-Usage
-=====
-
-Since this printer is released under the GNU GPL v.3, it is free for anyone to use,
-reuse, sell, etc.  One thing I'd ask is if you do sell it that you 
-financially contributing back to its continued development and maintenance. 
-Contact me at sgraber@gmail.com if willing.
